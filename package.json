@@ -1,0 +1,22 @@
+{
+  "name": "chat-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    	"start": "webpack && node index.js",
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.2",
+    "marked": "^0.3.6",
+    "socket.io": "1.7.3"
+  },
+  "devDependencies": {
+    "babel-loader": "6.4.1",
+    "webpack": "2.3.2"
+  }
+}
